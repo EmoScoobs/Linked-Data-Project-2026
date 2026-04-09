@@ -1,0 +1,806 @@
+@prefix :       <http://example.com/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:   <http://viaf.org/viaf/> .
+@prefix wd:     <http://wikidata.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q116842837  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.2"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1977-09-17"^^xsd:date;
+        schema:duration         "PT24M"^^xsd:duration;
+        schema:episodeNumber    "2";
+        schema:name             "English"@en , "Vampire Bats and Scaredy Cats";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q16111070  rdf:type          schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.5"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-10-11"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "5";
+        schema:name             "English"@en , "Decoy for a Dognapper";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q114539536  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.4"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1973-09-08"^^xsd:date;
+        schema:duration         "PT44M"^^xsd:duration;
+        schema:episodeNumber    "1";
+        schema:name             "English"@en , "The Mystery of Haunted Island";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114540117  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.3"^^xsd:decimal
+                                ];
+        schema:character        wd:Q44810;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-11-11"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "10";
+        schema:name             "English"@en , "The Ghost of Bigfoot";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q3468599  rdf:type  schema:Season .
+
+wd:Q116842663  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.2"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1976-10-23"^^xsd:date;
+        schema:duration         "PT24M"^^xsd:duration;
+        schema:episodeNumber    "7";
+        schema:name             "English"@en , "The Harum-Scarum Sanitarium";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:SarahJenkins  rdf:type  schema:Person .
+
+wd:Q9410  rdf:type  schema:Person .
+
+wd:Q114545279  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.4"^^xsd:decimal
+                                ];
+        schema:character        wd:Q108617360;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-10-18"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "6";
+        schema:name             "English"@en , "What the Hex Going On?";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q16112728  rdf:type          schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.1"^^xsd:decimal
+                                ];
+        schema:character        wd:Q51298304;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-09-13"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "1";
+        schema:name             "English"@en , "What a Night for a Knight";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q3729792  rdf:type  schema:Season .
+
+wd:Jadal  rdf:type        schema:Person;
+        schema:colleague  wd:Abdullah .
+
+wd:Q114550704  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.2"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-11-29"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "12";
+        schema:name             "English"@en , "Scooby-Doo and a Mummy, Too";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q51298304  rdf:type  schema:Person .
+
+wd:Q113470112  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.2"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1970-10-24"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "7";
+        schema:name             "English"@en , "Who's Afraid of the Big Bad Werewolf?";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q114549230  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.7"^^xsd:decimal
+                                ];
+        schema:character        wd:Q49658;
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-10-14"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "6";
+        schema:name             "A Highland Fling with a Monstrous Thing" , "English"@en;
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114502821  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.9"^^xsd:decimal
+                                ];
+        schema:character        wd:TheVulture;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-09-23"^^xsd:date;
+        schema:duration         "PT41M"^^xsd:duration;
+        schema:episodeNumber    "3";
+        schema:name             "English"@en , "Wednesday is Missing";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q113470096  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.7"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1970-09-26"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "3";
+        schema:name             "English"@en , "Scooby's Night with a Frozen Fright";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q114538737  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.5"^^xsd:decimal
+                                ];
+        schema:character        wd:Q2021531 , wd:Q3266236 , wd:Q9410;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-11-22"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "11";
+        schema:name             "A Gaggle of Galloping Ghosts" , "English"@en;
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q114529979  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.7"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-11-04"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "9";
+        schema:name             "English"@en , "The Spooky Fog of Juneberry";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114523333  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.9"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-09-30"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "4";
+        schema:name             "English"@en , "The Frickert Fracas";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114495232  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.0"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-11-15"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "10";
+        schema:name             "English"@en , "Bedlam in the Big Top";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q188044  rdf:type  schema:Person .
+
+wd:Q114544241  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.5"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-09-09"^^xsd:date;
+        schema:duration         "PT22M"^^xsd:duration;
+        schema:episodeNumber    "1";
+        schema:name             "English"@en , "Watch Out! The Willawa!";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114531912  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.8"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1973-10-20"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "7";
+        schema:name             "English"@en , "The Haunted Candy Factory";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q116842673  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.4"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1976-09-18"^^xsd:date;
+        schema:duration         "PT24M"^^xsd:duration;
+        schema:episodeNumber    "2";
+        schema:name             "English"@en , "The Fiesta Host is an Aztec Ghost";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114460151  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.6"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1973-10-27"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "8";
+        schema:name             "English"@en , "The Haunted Carnival";
+        schema:partOfSeries     wd:Q1188675 .
+
+viaf:141264452  rdf:type  schema:Organization .
+
+wd:Q114493372  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.5"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-10-28"^^xsd:date;
+        schema:duration         "PT41M"^^xsd:duration;
+        schema:episodeNumber    "8";
+        schema:name             "English"@en , "The Secret of Shark Island";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114517646  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.5"^^xsd:decimal
+                                ];
+        schema:character        wd:Jadal;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1973-09-22"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "3";
+        schema:name             "Mystery in Persia" , "English"@en;
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114481005  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.2"^^xsd:decimal
+                                ];
+        schema:character        wd:Q202474 , wd:Q12581;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-12-16"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "15";
+        schema:name             "English"@en , "The Caped Crusader Caper";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q44810  rdf:type  schema:Person .
+
+wd:Q461288  rdf:type         schema:TVSeries;
+        schema:partOfSeason  wd:Q3468795 , wd:Q3468599 , wd:Q3465815 .
+
+wd:Q116842686  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.6"^^xsd:decimal
+                                ];
+        schema:character        wd:Q188044;
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1976-10-16"^^xsd:date;
+        schema:duration         "PT24M"^^xsd:duration;
+        schema:episodeNumber    "6";
+        schema:name             "Scared a Lot in Camelot" , "English"@en;
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q1188675  rdf:type        schema:TVSeries;
+        schema:partOfSeason  wd:Q3468634 , wd:Q3465857 .
+
+wd:HousekeepingCouple
+        rdf:type  schema:Person .
+
+wd:Q116842657  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.5"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1976-12-18"^^xsd:date;
+        schema:duration         "PT24M"^^xsd:duration;
+        schema:episodeNumber    "16";
+        schema:name             "English"@en , "The Spirits of '76";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q43650835  rdf:type  schema:Person .
+
+wd:Q619851  rdf:type  schema:Person .
+
+wd:Q113470085  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.8"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1970-09-19"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "2";
+        schema:name             "English"@en , "Mystery Mask Mix-Up";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q116842599  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.1"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1977-10-15"^^xsd:date;
+        schema:duration         "PT24M"^^xsd:duration;
+        schema:episodeNumber    "6";
+        schema:name             "English"@en , "The Ozark Witch Switch";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q2021531  rdf:type  schema:Person .
+
+wd:Q113470114  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.9"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1970-10-31"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "8";
+        schema:name             "English"@en , "Don't Fool with a Phantom";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q108617360  rdf:type  schema:Person .
+
+wd:Q936279  rdf:type         schema:TVSeries;
+        schema:partOfSeason  wd:Q3729790 , wd:Q3729792 .
+
+wd:Q114487623  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.9"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1973-09-15"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "2";
+        schema:name             "English"@en , "The Haunted Showboat";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q116842691  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.4"^^xsd:decimal
+                                ];
+        schema:character        wd:Q131905726;
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1977-09-24"^^xsd:date;
+        schema:duration         "PT24M"^^xsd:duration;
+        schema:episodeNumber    "3";
+        schema:name             "English"@en , "Hang in There, Scooby-Doo";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114520314  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.5"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-11-11"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "10";
+        schema:name             "English"@en , "The Creepy Creature of Vulture's Claw";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114534141  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.7"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-10-14"^^xsd:date;
+        schema:duration         "PT41M"^^xsd:duration;
+        schema:episodeNumber    "6";
+        schema:name             "English"@en , "A Good Medium Is Rare";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114483351  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.6"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-11-18"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "11";
+        schema:name             "English"@en , "The Ghost of the Red Baron";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114523414  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.1"^^xsd:decimal
+                                ];
+        schema:character        wd:Q111905210;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-12-13"^^xsd:date;
+        schema:duration         "PT22M"^^xsd:duration;
+        schema:episodeNumber    "14";
+        schema:name             "Go Away Ghost Ship" , "English"@en;
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q2333502  rdf:type  schema:Person .
+
+wd:Q202474  rdf:type  schema:Person .
+
+wd:Q114511527  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.6"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-10-25"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "7";
+        schema:name             "English"@en , "Never Ape an Ape Man";
+        schema:partOfSeries     wd:Q936279 .
+
+viaf:123152361  rdf:type  schema:Organization .
+
+wd:Q114512370  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.9"^^xsd:decimal
+                                ];
+        schema:character        wd:SeaSerpent;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-12-23"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "16";
+        schema:name             "The Lochness Mess" , "English"@en;
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114530074  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.5"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-12-02"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "13";
+        schema:name             "English"@en , "A Menace in Venice";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114474806  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.0"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-11-04"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "9";
+        schema:name             "English"@en , "Make a Beeline Away from that Feline";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114462047  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.8"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-12-02"^^xsd:date;
+        schema:duration         "PT41M"^^xsd:duration;
+        schema:episodeNumber    "13";
+        schema:name             "English"@en , "The Haunted Horseman of Hagglethorn Hall";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:TheVulture  rdf:type   schema:Person;
+        schema:colleague  wd:HousekeepingCouple .
+
+wd:Q3468795  rdf:type  schema:Season .
+
+wd:Q114459990  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.1"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-12-23"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "16";
+        schema:name             "English"@en , "The Beast is Awake in Bottomless Lake";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q311070  rdf:type  schema:Person .
+
+wd:Q114486101  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.2"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-12-09"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "14";
+        schema:name             "English"@en , "Don't Go Near the Fortress of Fear";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114493011  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "6.8"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-12-16"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "15";
+        schema:name             "English"@en , "The Warlock of Wimbledon";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114548199  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.0"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-09-30"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "4";
+        schema:name             "English"@en , "To Switch a Witch";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114551304  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.4"^^xsd:decimal
+                                ];
+        schema:character        wd:Q111905210;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-11-25"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "12";
+        schema:name             "English"@en , "The Ghostly Creep from the Deep";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114465736  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.9"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-10-07"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "5";
+        schema:name             "English"@en , "Guess Who's Knott Coming to Dinner?";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Abdullah  rdf:type  schema:Person .
+
+wd:Q111905276  rdf:type  schema:Person .
+
+wd:Q114528167  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "6.9"^^xsd:decimal
+                                ];
+        schema:character        wd:Q619851;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-09-09"^^xsd:date;
+        schema:duration         "PT43M"^^xsd:duration;
+        schema:episodeNumber    "1";
+        schema:name             "The Ghastly Ghost Town" , "English"@en;
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114514006  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.3"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-09-16"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "2";
+        schema:name             "English"@en , "A Creepy Tangle in the Bermuda Triangle";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114537543  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.6"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1973-10-06"^^xsd:date;
+        schema:duration         "PT44M"^^xsd:duration;
+        schema:episodeNumber    "5";
+        schema:name             "English"@en , "The Exterminator";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:SeaSerpent  rdf:type  schema:Person .
+
+wd:Q12581  rdf:type    schema:Person;
+        schema:sameAs  wd:Q384193 .
+
+wd:Q114475980  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.8"^^xsd:decimal
+                                ];
+        schema:character        wd:Q2333502;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-09-16"^^xsd:date;
+        schema:duration         "PT41M"^^xsd:duration;
+        schema:episodeNumber    "2";
+        schema:name             "English"@en , "The Dynamic Scooby-Doo Affair";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q113469886  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.3"^^xsd:decimal
+                                ];
+        schema:character        wd:Q43650835;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1970-09-12"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "1";
+        schema:name             "Nowhere to Hyde" , "English"@en;
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q384193  rdf:type  schema:Person .
+
+wd:Q114536442  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.0"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1970-01-17"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "17";
+        schema:name             "English"@en , "That's Snow Ghost";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q114545096  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.2"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-10-28"^^xsd:date;
+        schema:duration         "PT22M"^^xsd:duration;
+        schema:episodeNumber    "8";
+        schema:name             "English"@en , "Jeepers, It's the Jaguaro!";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114519673  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.5"^^xsd:decimal
+                                ];
+        schema:character        wd:Q111905276;
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-11-18"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "11";
+        schema:name             "English"@en , "The Diabolical Disc Demon";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114543039  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.1"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-09-23"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "3";
+        schema:name             "English"@en , "A Scary Night with a Snow Beast Fright";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q111905210  rdf:type  schema:Person .
+
+wd:Q3468634  rdf:type  schema:Season .
+
+wd:Q114529199  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.1"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-11-08"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "9";
+        schema:name             "English"@en , "The Backstage Rage";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q114511079  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.2"^^xsd:decimal
+                                ];
+        schema:character        wd:CharlietheFunlandRobot;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1969-11-01"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "8";
+        schema:name             "English"@en , "Foul Play in Funland";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q114528711  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.5"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-11-25"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "12";
+        schema:name             "English"@en , "Scooby's Chinese Fortune Kooky Caper";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114486216  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.8"^^xsd:decimal
+                                ];
+        schema:character        wd:Q43650835;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-10-21"^^xsd:date;
+        schema:duration         "PT41M"^^xsd:duration;
+        schema:episodeNumber    "7";
+        schema:name             "Sandy Duncan's Jekyll and Hyde" , "English"@en;
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q114524794  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.6"^^xsd:decimal
+                                ];
+        schema:character        wd:Q311070;
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1972-12-09"^^xsd:date;
+        schema:duration         "PT41M"^^xsd:duration;
+        schema:episodeNumber    "14";
+        schema:name             "The Phantom of the Country Music Hall" , "English"@en;
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q49658  rdf:type  schema:Person .
+
+wd:CharlietheFunlandRobot
+        rdf:type          schema:Person;
+        schema:colleague  wd:SarahJenkins .
+
+wd:Q113470105  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.9"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1970-10-17"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "6";
+        schema:name             "English"@en , "A Tiki Scare Is No Fair";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q114481548  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.7"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:141264452;
+        schema:datePublished    "1978-10-21"^^xsd:date;
+        schema:duration         "PT23M"^^xsd:duration;
+        schema:episodeNumber    "7";
+        schema:name             "English"@en , "The Creepy Case of Old Iron Face";
+        schema:partOfSeries     wd:Q461288 .
+
+wd:Q114537332  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "7.3"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1973-10-13"^^xsd:date;
+        schema:duration         "PT44M"^^xsd:duration;
+        schema:episodeNumber    "6";
+        schema:name             "English"@en , "The Weird Winds of Winona";
+        schema:partOfSeries     wd:Q1188675 .
+
+wd:Q3266236  rdf:type  schema:Person .
+
+wd:Q114459463  rdf:type         schema:Episode;
+        schema:aggregateRating  [ rdf:type            schema:AggregateRating;
+                                  schema:ratingValue  "8.7"^^xsd:decimal
+                                ];
+        schema:contributor      viaf:123152361;
+        schema:datePublished    "1970-01-10"^^xsd:date;
+        schema:duration         "PT21M"^^xsd:duration;
+        schema:episodeNumber    "16";
+        schema:name             "English"@en , "A Night of Fright Is No Delight";
+        schema:partOfSeries     wd:Q936279 .
+
+wd:Q3729790  rdf:type  schema:Season .
+
+wd:Q3465815  rdf:type  schema:Season .
+
+wd:Q131905726  rdf:type  schema:Person .
+
+wd:Q3465857  rdf:type  schema:Season .
